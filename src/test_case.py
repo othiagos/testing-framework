@@ -14,6 +14,7 @@ class TestCase:
         except Exception as e:
             result.add_error(self.test_method_name)
         self.tear_down()
+
     def set_up(self):
         pass
 
